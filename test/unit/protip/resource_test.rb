@@ -2,6 +2,7 @@ require 'test_helper'
 
 require 'protip/client'
 require 'protip/resource'
+require "google/protobuf"
 
 module Protip::ResourceTest # Namespace for internal constants
   describe Protip::Resource do
