@@ -2,6 +2,9 @@ require 'test_helper'
 
 require 'protip/client'
 require 'protip/resource'
+require 'google/protobuf/wrappers_pb'
+require 'protip/messages/repeated_wrappers_pb'
+require 'protip/messages_pb'
 require "google/protobuf"
 
 module Protip::ResourceTest # Namespace for internal constants
